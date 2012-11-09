@@ -24,7 +24,8 @@ int main(int argc, const char * argv[])
     
 //    bool* out = prolog_tests::run_warders(N, W, arr, len);
     
-    cout << prolog_tests::cell_status(2, 3, 1) << endl;
+//    cout << prolog_tests::cell_status(2, 3, 1) << endl;
+    cout << prolog_tests::cell_status_db(2, 3, 1) << endl;
     return 0;
 }
 

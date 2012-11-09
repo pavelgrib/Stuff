@@ -10,6 +10,7 @@
 		DA5AD955164B26EC0005560F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5AD954164B26EC0005560F /* main.cpp */; };
 		DA5AD957164B26EC0005560F /* Stuff.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA5AD956164B26EC0005560F /* Stuff.1 */; };
 		DA5AD95F164B27020005560F /* prolog_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5AD95D164B27020005560F /* prolog_tests.cpp */; };
+		DA5AD966164C93750005560F /* Prisoner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5AD964164C93750005560F /* Prisoner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DA5AD956164B26EC0005560F /* Stuff.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Stuff.1; sourceTree = "<group>"; };
 		DA5AD95D164B27020005560F /* prolog_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prolog_tests.cpp; sourceTree = "<group>"; };
 		DA5AD95E164B27020005560F /* prolog_tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prolog_tests.h; sourceTree = "<group>"; };
+		DA5AD964164C93750005560F /* Prisoner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prisoner.cpp; sourceTree = "<group>"; };
+		DA5AD965164C93750005560F /* Prisoner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prisoner.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				DA5AD956164B26EC0005560F /* Stuff.1 */,
 				DA5AD95D164B27020005560F /* prolog_tests.cpp */,
 				DA5AD95E164B27020005560F /* prolog_tests.h */,
+				DA5AD964164C93750005560F /* Prisoner.cpp */,
+				DA5AD965164C93750005560F /* Prisoner.h */,
 			);
 			path = Stuff;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			files = (
 				DA5AD955164B26EC0005560F /* main.cpp in Sources */,
 				DA5AD95F164B27020005560F /* prolog_tests.cpp in Sources */,
+				DA5AD966164C93750005560F /* Prisoner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +220,7 @@
 				DA5AD95C164B26EC0005560F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
