@@ -13,7 +13,7 @@
 
 # XCode junk
 *.xcuserstate
-Stuff.xcodeproj/
+Stuff.xcodeproj
 project.xcworkspace/
 xcuserdata/
 *.pbxproj
