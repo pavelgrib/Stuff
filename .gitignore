@@ -13,3 +13,12 @@
 
 # XCode junk
 *.xcuserstate
+project.xcworkspace/
+xcuserdata/
+*.pbxproj
+
+# never commit these temp OSX files
+.DS_Store
+*.swp
+*.lock
+profile
