@@ -59,7 +59,7 @@ bool prolog_tests::cell_status_db(int cell, int N, bool status) {
 }
 
 int prolog_tests::load_db() {
-    ifstream f("/Users/paul/Dropbox/Imperial/prolog/prisonDb.pl");
+    ifstream f("/Users/pg/Dropbox/Imperial/prolog/prisonDb.pl");
     if ( f.is_open() ) {
         string s, last, first;
         size_t step, pos = 0;

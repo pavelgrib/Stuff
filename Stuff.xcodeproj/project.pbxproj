@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFCC3A4016510DC800E9F554 /* brain_teasers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3A3E16510DC800E9F554 /* brain_teasers.cpp */; };
 		DA5AD955164B26EC0005560F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5AD954164B26EC0005560F /* main.cpp */; };
 		DA5AD957164B26EC0005560F /* Stuff.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA5AD956164B26EC0005560F /* Stuff.1 */; };
 		DA5AD95F164B27020005560F /* prolog_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5AD95D164B27020005560F /* prolog_tests.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CFCC3A3E16510DC800E9F554 /* brain_teasers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = brain_teasers.cpp; sourceTree = "<group>"; };
+		CFCC3A3F16510DC800E9F554 /* brain_teasers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brain_teasers.h; sourceTree = "<group>"; };
 		DA5AD950164B26EC0005560F /* Stuff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stuff; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5AD954164B26EC0005560F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DA5AD956164B26EC0005560F /* Stuff.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Stuff.1; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				DA5AD954164B26EC0005560F /* main.cpp */,
 				DA5AD956164B26EC0005560F /* Stuff.1 */,
 				DA5AD95D164B27020005560F /* prolog_tests.cpp */,
+				CFCC3A3E16510DC800E9F554 /* brain_teasers.cpp */,
+				CFCC3A3F16510DC800E9F554 /* brain_teasers.h */,
 				DA5AD95E164B27020005560F /* prolog_tests.h */,
 				DA5AD964164C93750005560F /* Prisoner.cpp */,
 				DA5AD965164C93750005560F /* Prisoner.h */,
@@ -130,6 +135,7 @@
 				DA5AD955164B26EC0005560F /* main.cpp in Sources */,
 				DA5AD95F164B27020005560F /* prolog_tests.cpp in Sources */,
 				DA5AD966164C93750005560F /* Prisoner.cpp in Sources */,
+				CFCC3A4016510DC800E9F554 /* brain_teasers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
